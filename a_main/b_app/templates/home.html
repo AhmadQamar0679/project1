@@ -6,8 +6,23 @@
     <title>Document</title>
 </head>
 <body>
-
-    <h1>Ahmad</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>sr</th>
+                <th>Department</th>
+            </tr>
+        </thead>
+    </table>
+    {% for dep in dep_name %}
+    <tr>
+        <th>{{dep.dedep_name}}</th>
+    </tr>
+    
+    
+    
+    {% endfor %}
+   
     
 </body>
 </html>
